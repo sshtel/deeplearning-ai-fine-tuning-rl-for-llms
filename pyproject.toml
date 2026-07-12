@@ -1,0 +1,13 @@
+[project]
+name = "deeplearning-ai-fine-tuning-rl-for-llms"
+version = "0.1.0"
+description = "M1_G1: Inspecting Fine-Tuned vs Base Model - base/SFT/RL comparison and Llama Guard safety evaluation"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.13.0",
+    "transformers>=5.13.1",
+    "datasets>=5.0.0",
+    "pandas>=3.0.3",
+    "tqdm>=4.68.4",
+    "huggingface_hub>=1.23.0",
+]
